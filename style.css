@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+main{
+	width: 80%;
+	margin: 0 auto
+}
+.head-div{
+	margin: .5em auto;
+	text-align: center;
+	line-height: 2em;
+}
+.head-div p:first-child{
+	font-size: 2em;
+}
+.head-sp{
+	color: green;
+	margin-top: .4em;
+}
+label{
+	font-weight: 700;
+}
+.expense-lb{
+	width: 5em;
+}
+#expense{
+	width: calc(100% - 4em);
+	text-align: left;
+	padding-left: .5em;
+}
+.date-lb,.amount-lb{
+	display: inline-block;
+	margin-top: .5em;
+	width: 50%;
+}
+.date-amount-div{
+	display: flex;
+}
+#date{
+	width: calc(100% - 4em);
+}
+#amount{
+	width: calc(100% - 5.3em)
+}
+#btn{
+	display: block;
+	margin: 0 auto;
+	margin-top: .8em;
+	text-align: center;
+	color: white;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	padding: 1em 2em;	
+}
+#btn:hover{
+	cursor: pointer;
+}
+#btn:active{
+	opacity: .8;
+}
+
+/*table styling*/
+
+table{
+	width: 100%;
+	margin-top: .8em;
+}
+table,tr,th,td{
+	text-align: left;
+	border-collapse: collapse;
+}
+tr,th,td{
+	padding: .5em 0;
+}
+tr:nth-child(even){
+	background: #ccc;
+}

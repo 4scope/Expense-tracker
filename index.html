@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>EXPENSE TRACKER</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="head-div">
+      	<p>Expense Tracker</p>
+      	<p class="head-sp">Add New Item:</p>
+      </div>
+      <div class="input-div">
+      	<label for="expense" class="expense-lb">Name:
+	      	<input type="text" name="expense" id="expense" placeholder="What was the expense">
+      	</label>
+      	<div class="date-amount-div">
+	      	<label for="date" class="date-lb">Date:
+	      		<input type="date" id="date" name="date">
+	      	</label>
+	      	<label for="amount" class="amount-lb">Amount:
+	      		<input type="number" id="amount" name="amount">
+	      	</label>
+	    </div>
+      	<button id="btn">Add Expense</button>
+      </div>
+      <div>
+      	<table>
+      		<tr>
+      			<th>Name</th>
+      			<th>Date</th>
+      			<th>Amount</th>
+      		</tr>
+      		<tr>
+      			<td>Chickin Island</td>
+      			<td>04/06/06</td>
+      			<td>$1,700</td>
+      			<td>-</td>
+      		</tr>
+      	</table>
+      </div>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
